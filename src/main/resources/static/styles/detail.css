@@ -219,7 +219,7 @@ html.in-app body.zhi {
     padding-top:0
 }
 a {
-    color:#25bb9b
+    color:#0077E6
 }
 a:active {
     outline:0
@@ -279,7 +279,7 @@ body {
     line-height:1.7;
     word-wrap:break-word;
     color:#222;
-    background-color:#fff
+    background-color:#f5f5f5;
 }
 button {
     padding:0;
@@ -350,7 +350,7 @@ address,sup {
     position:relative
 }
 .cross span {
-    background-color:#25bb9b
+    background-color:#0077E6
 }
 .cross .vertical {
     position:absolute;
@@ -552,17 +552,17 @@ address,sup {
     font-size:12px
 }
 html.no-touchevents .zg-link-gray:hover,html.no-touchevents .zg-link-gray-normal:hover {
-    color:#25bb9b
+    color:#0077E6
 }
 .zg-link-litblue,.zg-link-litblue-normal {
-    color:#25bb9b;
+    color:#0077E6;
     font-weight:400
 }
 .zg-link-litblue {
     font-size:12px
 }
 .zg-link-litblue:hover,.zg-link-litblue-normal:hover {
-    color:#25bb9b
+    color:#0077E6
 }
 .zg-blue-edit {
     width:15px;
@@ -585,7 +585,7 @@ html.no-touchevents .zg-link-gray:hover,html.no-touchevents .zg-link-gray-normal
 .zg-num {
     margin:0 0 0 3px;
     padding:1px 5px;
-    background:#25bb9b;
+    background:#0077E6;
     color:#fff;
     font-size:11px;
     -webkit-text-size-adjust:none;
@@ -1166,12 +1166,12 @@ textarea.zg-form-text-input,.zg-form-text-input>textarea {
     height:15px;
     background-repeat:no-repeat;
     background-position:-264px -103px;
-    background-color:#25bb9b;
+    background-color:#0077E6;
     border-radius:3px;
     cursor:pointer
 }
 html.no-touchevents .icon-delete:hover {
-    background-color:#25bb9b
+    background-color:#0077E6
 }
 .icon-edit {
     width:12px;
@@ -1442,10 +1442,10 @@ i[class^=z-icon-],i[class*=" z-icon-"] {
     margin-left:0
 }
 html.no-touchevents .meta-item:hover {
-    color:#25bb9b
+    color:#0077E6
 }
 html.no-touchevents .meta-item:hover .goog-menu-button-caption {
-    color:#25bb9b;
+    color:#0077E6;
     text-decoration:underline
 }
 .meta-item.disabled,html.no-touchevents .meta-item.disabled:hover {
@@ -1584,6 +1584,12 @@ html.no-touchevents .meta-item:hover .z-icon-comment {
     margin:20px 0;
     padding:5px 1px
 }
+.zg-btn-white.zu-button-more:hover {
+    color: #fff!important;
+    background: #0077E6;
+    border-color: #0077E6;
+    text-shadow: none;
+}
 .zu-button-more.loading {
     cursor:not-allowed
 }
@@ -1593,31 +1599,27 @@ html.no-touchevents .meta-item:hover .z-icon-comment {
 .zg-btn-blue {
     color:#fff!important;
     /*text-shadow:0 -1px 0 rgba(0,0,0,.5);*/
-    background:#25bb9b;
-    background:-webkit-linear-gradient(top,#25bb9b,#00B091);
-    background:linear-gradient(to bottom,#25bb9b,#00B091);
-    border:1px solid #25bb9b;
+    background:#0077E6;
+    /* background:-webkit-linear-gradient(top,#0077E6,#0077E6);
+    background:linear-gradient(to bottom,#0077E6,#0077E6); */
+    border:1px solid #0077E6;
     box-shadow:0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2)
 }
 .zg-btn-blue:active {
-    background:#25bb9b;
-    background:-webkit-linear-gradient(top,#25bb9b,#00B091);
-    background:linear-gradient(to bottom,#25bb9b,#00B091);
+    background:#0077E6;
+    background:-webkit-linear-gradient(top,#0077E6,#0077E6);
+    background:linear-gradient(to bottom,#0077E6,#0077E6);
     box-shadow:0 1px 2px rgba(255,255,255,.15) inset
 }
 .zg-btn-red {
     color:#fff!important;
     text-shadow:0 -1px 0 rgba(0,0,0,.5);
     background:#e55345;
-    background:-webkit-linear-gradient(top,#e96249,#e03c40);
-    background:linear-gradient(to bottom,#e96249,#e03c40);
     border:1px solid #cf2b28;
     box-shadow:0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2)
 }
 .zg-btn-red:active {
     background:#e55039;
-    background:-webkit-linear-gradient(top,#e7563b,#e04735);
-    background:linear-gradient(to bottom,#e7563b,#e04735);
     box-shadow:0 1px 2px #9C3522 inset
 }
 .zg-btn-green,.zg-btn-follow {
@@ -1626,24 +1628,18 @@ html.no-touchevents .meta-item:hover .z-icon-comment {
     min-width: 78px;
     color: #fff!important;
     text-shadow: 0 1px 0 rgba(255,255,255,.3);
-    background: #25bb9b;
-    background: -webkit-linear-gradient(top,#25bb9b,#00B091);
-    background: linear-gradient(to bottom,#25bb9b,#00B091);
-    border: 1px solid #25bb9b;
+    background: #0077E6;
+    border: 1px solid #0077E6;
     box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,0 1px 0 rgba(0,0,0,.2);
 }
 .zg-btn-green:active,.zg-btn-follow:active {
-    background:#25bb9b;
-    background:-webkit-linear-gradient(top,#25bb9b,#00B091);
-    background:linear-gradient(to bottom,#25bb9b,#00B091);
+    background:#0077E6;
     box-shadow:0 1px 2px rgba(0,0,0,.3) inset
 }
 .zg-btn-white {
     color:#666!important;
     text-shadow:0 1px 0 #fff;
     background:#f1f1f2;
-    background:-webkit-linear-gradient(top,#f8f8f9,#e6e6e8);
-    background:linear-gradient(to bottom,#f8f8f9,#e6e6e8);
     border:1px solid #bbb;
     box-shadow:0 1px 0 #fff inset,0 1px 0 rgba(0,0,0,.1)
 }
@@ -1666,10 +1662,19 @@ html.no-touchevents .meta-item:hover .z-icon-comment {
     display:none
 }
 .zg-follow {
-    color:#25bb9b
+    color: #fff !important;
+    background: rgba(0,119,230,.8);
+    border-color: rgba(0,119,230,.8);
 }
-html.no-touchevents .zg-follow:hover {
-    color:#25bb9b
+.zg-gray-normal a {
+    color: #0077E6;
+}
+.zg-gray-normal a:hover {
+    text-decoration: none;
+}
+html.no-touchevents .zg-follow:hover, .zg-follow:hover {
+    background: #0077E6;
+    border-color: #0077E6;
 }
 .zg-btn-blue.zg-btn-justify,.zg-btn-green.zg-btn-justify,.zg-btn-white.zg-btn-justify {
     font-size:13px!important;
@@ -1683,7 +1688,7 @@ html.no-touchevents .zg-follow:hover {
 }
 .goog-link-button {
     position:relative;
-    color:#25bb9b;
+    color:#0077E6;
     text-decoration:underline;
     cursor:pointer
 }
@@ -1698,7 +1703,7 @@ html.no-touchevents .zg-follow:hover {
 }
 .zg-link-btn {
     border:0;
-    color:#25bb9b;
+    color:#0077E6;
     background:transparent;
     cursor:pointer
 }
@@ -1856,7 +1861,7 @@ html.no-touchevents .zg-link-btn:hover {
     display:none
 }
 .z-link-lit {
-    color:#25bb9b
+    color:#0077E6
 }
 .z-text-muted {
     color:#999
@@ -1893,7 +1898,7 @@ html.no-touchevents .zg-link-btn:hover {
     display:block;
     padding:5px 15px;
     min-width:45px;
-    color:#25bb9b;
+    color:#0077E6;
     text-decoration:none;
     border:1px solid transparent;
     border-radius:2px 2px 0 0
@@ -2313,7 +2318,7 @@ body .highlight {
     padding:0 2px
 }
 .Link--light {
-    color:#25bb9b
+    color:#0077E6
 }
 .Button {
     display:inline-block;
@@ -2322,8 +2327,6 @@ body .highlight {
     color:#fff;
     text-shadow:0 -1px 0 rgba(0,0,0,.5);
     background:#1472cf;
-    background:-webkit-linear-gradient(top,#1d7fe2,#0865c2);
-    background:linear-gradient(to bottom,#1d7fe2,#0865c2);
     border:1px solid #0d6eb8;
     border-radius:3px;
     box-shadow:0 1px 0 rgba(255,255,255,.2) inset,0 1px 0 rgba(0,0,0,.2);
@@ -2366,7 +2369,7 @@ body .highlight {
     box-shadow:none
 }
 .Button--link {
-    color:#25bb9b;
+    color:#0077E6;
     text-shadow:none;
     background:0 0;
     border:0;
@@ -2404,7 +2407,7 @@ body .highlight {
     display:inline-block;
     padding:0 5px;
     height:20px;
-    color:#25bb9b;
+    color:#0077E6;
     font-size:12px;
     border:0;
     outline:0;
@@ -2553,7 +2556,7 @@ textarea.Input {
     color:#666
 }
 .SidebarListNav-itemLink:active,html.no-touchevents .SidebarListNav-listItem .follow-link:hover+.SidebarListNav-itemLink,html.no-touchevents .SidebarListNav-itemLink:hover {
-    color:#25bb9b;
+    color:#0077E6;
     background:#eff6fa;
     border-radius:3px;
     text-decoration:none
@@ -2582,7 +2585,7 @@ html.no-touchevents .SidebarListNav-listItem:hover .follow-link {
     display:none
 }
 .SidebarListNav-listItem .follow-link:hover {
-    color:#25bb9b!important
+    color:#0077E6!important
 }
 .SidebarListNav-listItem .follow-link .z-icon-follow {
     display:none
@@ -2604,7 +2607,7 @@ html.no-touchevents .SidebarListNav-listItem:hover .follow-link {
     white-space:nowrap
 }
 html.no-touchevents .SidebarListNav-listItem:hover .SidebarListNav-hint {
-    color:#25bb9b
+    color:#0077E6
 }
 html.no-touchevents .SidebarListNav-listItem:hover .SidebarListNav-hint--hoverHidden {
     display:none
@@ -3130,7 +3133,7 @@ html.no-touchevents .Guide-TopicsItem:hover .Guide-TopicsMask {
     clear:both
 }
 .zu-home-noti-item-inner>.x-d>.x-a {
-    color:#25bb9b
+    color:#0077E6
 }
 .zu-home-noti-item {
     list-style:none!important;
@@ -3367,6 +3370,10 @@ html.touchevents .x-m,html.touchevents .x-e {
 .zm-item-meta .zm-meta-panel {
     background:transparent
 }
+.zm-item-meta .zm-meta-panel a:hover {
+    color: #0077E6;
+    text-decoration: none;
+}
 .zm-item-meta .zm-meta-panel a.collapse {
     visibility:visible
 }
@@ -3377,7 +3384,7 @@ html.touchevents .x-m,html.touchevents .x-e {
     color:#999
 }
 html.no-touchevents .zm-item-meta .zm-item-meta-actions a:hover {
-    color:#25bb9b
+    color:#0077E6
 }
 #zh-question-meta-wrap {
     margin-bottom:10px
@@ -3464,7 +3471,7 @@ html.no-touchevents .zm-item-meta .zm-item-meta-actions a:hover {
     font-size:inherit
 }
 html.no-touchevents .zm-item-vote-info a:hover {
-    color:#25bb9b
+    color:#0077E6
 }
 .zm-item-answer-creator {
     font-size:13px
@@ -3574,7 +3581,7 @@ iframe {
     display:inline-block
 }
 html.no-touchevents .zm-item-meta>.zg-link-gray:hover {
-    color:#25bb9b!important
+    color:#0077E6!important
 }
 .topic-story-item h2 {
     margin:0
@@ -3601,7 +3608,7 @@ html.no-touchevents .zm-item-meta>.zg-link-gray:hover {
     margin:0
 }
 .zu-question-notify-wrap em {
-    color:#25bb9b;
+    color:#0077E6;
     font-style:normal;
     cursor:pointer
 }
@@ -3609,7 +3616,7 @@ html.no-touchevents .zm-item-meta>.zg-link-gray:hover {
     text-decoration:underline
 }
 .zu-question-notify-wrap a {
-    color:#25bb9b;
+    color:#0077E6;
     font-style:normal;
     cursor:pointer
 }
@@ -3695,8 +3702,8 @@ html.no-touchevents .zm-item-meta>.zg-link-gray:hover {
 .zu-small-avatar-list>.zm-item-link-avatar {
     float:left;
     margin:3px 3px 0 0;
-    width:25px;
-    height:25px
+    width:50px;
+    height:50px
 }
 .zm-tag-editor-command-buttons-wrap {
     position:relative
@@ -3943,6 +3950,9 @@ a.zg-star:hover {
     font-weight:400;
     font-size:13px
 }
+.zm-noti-cleaner-setting a:hover {
+    color: #0077E6;
+}
 .close {
     float:right;
     width:16px;
@@ -4066,7 +4076,9 @@ html.touchevents .topic-item .unfollow {
     margin-top:3px
 }
 .page-explore .top-recommend-feed .zh-summary {
-    cursor:default
+    cursor:default;
+    color: #333;
+    font-size: 12px;
 }
 .page-explore .pagination {
     margin-top:5px;
@@ -4364,7 +4376,7 @@ html.no-touchevents .actioncard-button:hover {
 .actioncard .pager a {
     margin-left:.5em;
     cursor:pointer;
-    color:#25bb9b;
+    color:#0077E6;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -4518,7 +4530,7 @@ html.no-touchevents .actioncard-button:hover {
     border:0;
     border-radius:3px;
     background:#eff6fa;
-    color:#25bb9b;
+    color:#0077E6;
     font-size:100%;
     cursor:pointer;
     outline:0
@@ -4569,7 +4581,7 @@ html.no-touchevents .actioncard-button:hover {
     text-decoration:none
 }
 .CardAdFeed-button {
-    color:#25bb9b
+    color:#0077E6
 }
 .CardAdFeed-attachment:hover .CardAdFeed-button {
     text-decoration:none;
@@ -4687,17 +4699,25 @@ a.zu-main-feed-fresh-button:hover,a.zu-main-feed-fresh-button:active {
     position:relative
 }
 .feed-item {
-    padding:10px 0;
+    padding:10px;
+    border-radius: 4px;
     position:relative;
-    margin-left:0;
-    outline:0
+    border: 1px solid #eee;
+    margin: 0 10px 10px;
+    outline:0;
+    background-color: #fff;
+}
+.feed-item:last-child {
+    margin-bottom: 0;
 }
 .feed-item .zm-votebar {
     display:none;
     margin-top:-1px
 }
 .feed-item .zm-item-vote {
-    margin-top:-1px
+    left: -140px;
+    bottom: -30px;
+    top: auto;
 }
 .feed-item .time {
     display:inline-block;
@@ -4718,14 +4738,15 @@ h2+.meta {
 }
 .feed-item .avatar,.feed-item .avatar a,.feed-item .avatar img {
     display:block;
-    width:38px;
-    height:38px
+    width:120px;
+    height:120px
 }
 .feed-item .avatar img {
     border-radius:3px
 }
 .feed-main {
-    margin-left:48px
+    padding-left:140px;
+    margin-left: 0;
 }
 .feed-main>.title {
     color:#999
@@ -4773,14 +4794,14 @@ h2+.meta {
     display:none
 }
 .feed-source a.follow-topic {
-    color:#25bb9b
+    color:#0077E6
 }
 html.no-touchevents .feed-source a.follow-topic:hover {
     padding:0 2px;
     text-decoration:none
 }
 html.no-touchevents .feed-source a:hover {
-    color:#25bb9b
+    color:#0077E6
 }
 .question-description+.toggle-expand:hover {
     text-decoration:none
@@ -4827,6 +4848,13 @@ html.no-touchevents .feed-source a:hover {
 .feed-item .feed-content h2 {
     margin-right:20px
 }
+.feed-item .feed-content h2 a {
+    color: #333;
+}
+.feed-item .feed-content h2 a:hover {
+    color: #0077E6;
+    text-decoration: none;
+}
 .feed-item .more_opt {
     cursor:pointer
 }
@@ -4871,7 +4899,16 @@ html.no-touchevents .feed-source a:hover {
     border-left:1px solid #EEE
 }
 .feed-item .zm-item-vote-info,.feed-item .zm-item-answer-author-info {
-    margin-bottom:2px
+    margin-bottom:2px;
+    color: #666;
+}
+.feed-item .zm-item-vote-info,.feed-item .zm-item-answer-author-info a {
+    color: #666;
+    font-size: 12px;
+}
+.feed-item .zm-item-answer-author-info a:hover {
+    color: rgba(0,119,230,.8);
+    text-decoration: none;
 }
 .feed-item .zm-item-vote-info.empty {
     margin:0
@@ -4890,7 +4927,7 @@ html.no-touchevents .feed-source a:hover {
     font-weight:700
 }
 .feed-item .author a:hover {
-    color:#25bb9b
+    color:#0077E6
 }
 .feed-item a.question {
     font-size:14px;
@@ -5351,8 +5388,6 @@ html.no-touchevents .bordered-block-menu-link:hover .bordered-block-menu-text {
     .zu-main.with-indention-votebar .zu-main-content-inner {
     margin:0 10px
 }
-}.zu-main.with-indention-votebar .zu-main-content-inner .zm-item-answer {
-    margin-left:0
 }
 .zh-question-related-questions li {
     list-style:none;
@@ -5521,7 +5556,7 @@ html.no-touchevents .bordered-block-menu-link:hover .bordered-block-menu-text {
     vertical-align:middle
 }
 .zm-bio-item .zm-bio-item-content .username {
-    color:#25bb9b;
+    color:#0077E6;
     font-weight:700
 }
 .zm-bio-item .zm-bio-item-editor {
@@ -5584,7 +5619,7 @@ html.no-touchevents .bordered-block-menu-link:hover .bordered-block-menu-text {
     border-radius:4px
 }
 #zh-question-answer-form-wrap .zu-edit-button {
-    color:#25bb9b
+    color:#0077E6
 }
 #zh-question-answer-form-wrap .zu-edit-button .zu-edit-button-icon {
     background-position:-131px -50px
@@ -5928,7 +5963,7 @@ html.no-touchevents .topic-item:hover .topic-hover-content,html.no-touchevents .
 }
 .side-topic-item .up {
     background:url(../images/img/sprites-1.9.2.4c54885a.png) no-repeat -263px -84px;
-    background-color:#25bb9b;
+    background-color:#0077E6;
     border-radius:3px;
     width:15px;
     height:15px;
@@ -5940,7 +5975,7 @@ html.no-touchevents .topic-item:hover .topic-hover-content,html.no-touchevents .
 }
 .side-topic-item .delete {
     background:url(../images/img/sprites-1.9.2.4c54885a.png) no-repeat -264px -103px;
-    background-color:#25bb9b;
+    background-color:#0077E6;
     border-radius:3px;
     width:15px;
     height:15px;
@@ -5950,10 +5985,10 @@ html.no-touchevents .topic-item:hover .topic-hover-content,html.no-touchevents .
     visibility:hidden
 }
 html.no-touchevents .side-topic-item .up:hover {
-    background-color:#25bb9b
+    background-color:#0077E6
 }
 html.no-touchevents .side-topic-item .delete:hover {
-    background-color:#25bb9b
+    background-color:#0077E6
 }
 .side-topic-item {
     border-radius:4px;
@@ -5987,7 +6022,7 @@ html.no-touchevents .side-topic-item .delete:hover {
 }
 .side-topic-more {
     display:none;
-    color:#25bb9b;
+    color:#0077E6;
     font-size:12px;
     line-height:16px
 }
@@ -6277,8 +6312,8 @@ html.no-touchevents .side-topic-item .delete:hover {
 }
 .zh-question-followers-sidebar>.list .zm-item-img-avatar {
     border-radius:2px;
-    width:25px;
-    height:25px
+    width:50px;
+    height:50px
 }
 .zm-topic-side-title-link {
     margin-left:5px;
@@ -6513,8 +6548,8 @@ html.no-touchevents .zm-topic-feed-page-item:hover {
     border:1px solid #daecf5
 }
 html.no-touchevents .zm-topic-cat-main .zm-topic-cat-item:hover a,.zm-topic-cat-main .zm-topic-cat-item.current a {
-    background:#25bb9b;
-    border-color:#25bb9b;
+    background:#0077E6;
+    border-color:#0077E6;
     color:#fff
 }
 .zm-topic-cat-main .zm-topic-cat-more a {
@@ -6624,7 +6659,7 @@ html.no-touchevents .zm-topic-cat-sub a:hover strong,html.no-touchevents .zm-top
     color:#666
 }
 .zm-topics-page-link:hover {
-    color:#25bb9b
+    color:#0077E6
 }
 .zm-topics-page-link .zg-icon {
     width:14px;
@@ -6723,7 +6758,7 @@ html.no-touchevents .zm-topic-cat-sub a:hover strong,html.no-touchevents .zm-top
     margin-left:0
 }
 .page-search .actions .votenum-mobile {
-    color:#25bb9b;
+    color:#0077E6;
     display:inline-block;
     vertical-align:bottom
 }
@@ -6783,7 +6818,7 @@ html.no-touchevents .page-search .entry.article:hover .visible-focusin,html.no-t
 .page-search .entry.article .toggle-expand,.page-search .entry.answer .toggle-expand {
     display:inline-block;
     padding:0 3px;
-    color:#25bb9b;
+    color:#0077E6;
     border-radius:2px;
     font-size:.9em
 }
@@ -6904,7 +6939,7 @@ html.no-touchevents .page-search .item-card .grid .col:hover {
     text-decoration:none
 }
 html.no-touchevents .page-search .item-card .grid .col:hover,html.no-touchevents .page-search .item-card .grid .col:hover strong {
-    color:#25bb9b
+    color:#0077E6
 }
 .page-search .user-card .bio {
     max-width:300px
@@ -7085,7 +7120,7 @@ html.no-touchevents .page-search .item-card .grid .col:hover,html.no-touchevents
     background:#d6e9f8
 }
 .zu-autocomplete-row-search-link.active a {
-    color:#25bb9b;
+    color:#0077E6;
     text-decoration:none
 }
 .zu-autocomplete-row-label {
@@ -7110,7 +7145,7 @@ html.no-touchevents .page-search .item-card .grid .col:hover,html.no-touchevents
     background-position:-107px -821px
 }
 .ac-active .zu-autocomplete-row-description {
-    color:#25bb9b
+    color:#0077E6
 }
 .goog-menu {
     position:absolute;
@@ -7243,10 +7278,8 @@ html.modal-open.flexbox .modal-wrapper .modal-dialog.centered {
     margin:-1px -1px 0;
     padding:10px 15px;
     line-height:14px;
-    background:#25bb9b;
-    background:-webkit-linear-gradient(top,#25bb9b,#00B091);
-    background:linear-gradient(to bottom,#25bb9b,#00B091);
-    border:1px solid #00B091;
+    background:#0077E6;
+    border:1px solid #0077E6;
     border-radius:6px 6px 0 0;
     box-shadow:0 1px 0 rgba(255,255,255,.1) inset,0 1px 1px rgba(0,0,0,.2)
 }
@@ -7271,7 +7304,7 @@ html.modal-open.flexbox .modal-wrapper .modal-dialog.centered {
 }
 .modal-dialog-buttons button[name=cancel] {
     border:0;
-    color:#25bb9b;
+    color:#0077E6;
     background:transparent;
     cursor:pointer;
     font-size:13px
@@ -7697,7 +7730,7 @@ td.goog-date-picker-selected {
 .zm-profile-vote-count {
     float:left;
     padding:2px;
-    color:#25bb9b;
+    color:#0077E6;
     height:38px;
     width:46px;
     line-height:20px;
@@ -7745,7 +7778,7 @@ a.toggle-expand.btn-toggle-question-detail {
 }
 a.toggle-expand.btn-toggle-question-detail span {
     font-size:12px;
-    color:#25bb9b;
+    color:#0077E6;
     padding:3px;
     border-radius:2px
 }
@@ -7949,7 +7982,7 @@ a>.invisible {
     height: 32px;
     line-height: 30px;
     margin-top: 7px;
-    border: 1px solid #00B091;
+    border: 1px solid #0077E6;
     border-radius: 4px;
     background: #00BC9B;
     box-shadow: 0 1px 2px rgba(0,0,0,.05),inset 0 1px 1px rgba(255,255,255,.15);
@@ -8456,7 +8489,7 @@ html.no-touchevents .zu-top-nav-userinfo:hover {
     background:#5781b7
 }
 .zm-side-nav-link.active,html.no-touchevents .zm-side-nav-link:hover {
-    color:#25bb9b;
+    color:#0077E6;
     background:#eff6fa;
     border-radius:3px;
     text-decoration:none
@@ -8642,7 +8675,7 @@ html.no-touchevents .shameimaru-section .shameimaru-close {
     text-align:center;
     border:1px solid #eee;
     border-width:1px 0 0;
-    color:#25bb9b;
+    color:#0077E6;
     box-shadow:0 0 5px rgba(180,180,180,.1) inset;
     text-shadow:0 1px 0 #fff
 }
@@ -8830,7 +8863,7 @@ html.touchevents .zm-comment-op-link {
     visibility:visible!important
 }
 html.no-touchevents .zm-comment-op-link:hover {
-    color:#25bb9b;
+    color:#0077E6;
     text-decoration:none
 }
 .zg-icon-comment-like,.zm-comment-op-link .zg-icon {
@@ -9082,7 +9115,7 @@ html.no-touchevents a:hover .zg-icon-comment-reply,html.no-touchevents button:ho
 }
 .question-invite-panel .suggest-persons .person .describe .zg-link {
     float:left;
-    color:#25bb9b
+    color:#0077E6
 }
 .question-invite-panel .suggest-persons .person .reason {
     margin-top:3px;
@@ -9112,7 +9145,7 @@ html.no-touchevents a:hover .zg-icon-comment-reply,html.no-touchevents button:ho
     display:block;
     padding-top:12px;
     padding-bottom:12px;
-    color:#25bb9b;
+    color:#0077E6;
     text-align:center;
     text-decoration:none;
     border-top:1px solid #eee
@@ -9164,7 +9197,7 @@ html.no-touchevents a:hover .zg-icon-comment-reply,html.no-touchevents button:ho
     position:relative;
     top:43px;
     font-size:13px;
-    color:#25bb9b
+    color:#0077E6
 }
 .zh-add-question-form {
     padding:2px 2px 0
@@ -9208,7 +9241,7 @@ html.no-touchevents a:hover .zg-icon-comment-reply,html.no-touchevents button:ho
     margin:0 5px 5px 0
 }
 .zh-add-question-form .zm-tag-editor-edit-item span {
-    color:#25bb9b
+    color:#0077E6
 }
 .zh-add-question-form .zm-ac-topic-alias {
     font-size:12px;
@@ -9255,7 +9288,7 @@ html.no-touchevents a:hover .zg-icon-comment-reply,html.no-touchevents button:ho
 }
 .zh-add-question-form #zh-question-suggest-detail-trigger {
     line-height:24px;
-    color:#25bb9b;
+    color:#0077E6;
     display:inline-block;
     border-radius:4px
 }
@@ -9503,11 +9536,11 @@ a.toggle-expand,.CardAdFeed-button {
     padding:0 3px;
     border-radius:2px;
     font-size:.9em;
-    color: #25bb9b;
+    color: #0077E6;
 }
 html.no-touchevents .zh-summary:hover a.toggle-expand {
     text-decoration:none;
-    color: #25bb9b
+    color: #0077E6
 }
 .item-collapse {
     float:right;
@@ -9536,7 +9569,7 @@ html.no-touchevents .zh-summary:hover a.toggle-expand {
     right:auto;
     z-index:1;
     margin:0;
-    background-color:#25bb9b;
+    background-color:#0077E6;
     color:#fff;
     opacity:.9;
     -ms-filter:"alpha(Opacity=90)"
@@ -9560,7 +9593,7 @@ html.no-touchevents .item-collapse.is-sticky:hover {
     top:5px;
     right:0;
     margin:0;
-    background-color:#25bb9b;
+    background-color:#0077E6;
     color:#fff
 }
 .zh-question-answer-wrapper .item-collapse.is-sticky,.awesome-answer-list .item-collapse.is-sticky {
@@ -10637,9 +10670,9 @@ html.enable-dark-theme.ios-dark-theme a.disabled {
     color:#606476
 }
 html.enable-dark-theme.ios-dark-theme .zg-btn-blue {
-    background:#3a76d0;
-    background:-webkit-linear-gradient(top,#3a76d0,#064a8f);
-    background:linear-gradient(to bottom,#3a76d0,#064a8f);
+    background:#0077E6;
+    /* background:-webkit-linear-gradient(top,#3a76d0,#064a8f);
+    background:linear-gradient(to bottom,#3a76d0,#064a8f); */
     border:1px solid #094f85
 }
 html.enable-dark-theme.ios-dark-theme body.zhi {
@@ -10803,7 +10836,7 @@ html.enable-dark-theme.ios-dark-theme body.zhi {
     font-size:13px
 }
 .report-success-dialog p a {
-    color:#25bb9b
+    color:#0077E6
 }
 @media (max-width:500px) {
     .report-dialog .options li {
@@ -10877,7 +10910,7 @@ html.no-touchevents .zu-edit-button:hover {
     text-decoration:none;
     background:#eff6fa;
     border-radius:3px;
-    color:#25bb9b
+    color:#0077E6
 }
 .zu-edit-button-icon {
     background-position:-118px -50px;
@@ -11518,7 +11551,7 @@ html.no-touchevents #zu-distraction-free-editor .back:hover,html.no-touchevents 
     text-decoration:none
 }
 .zh-profile-card .lower .meta .item:hover {
-    color:#25bb9b
+    color:#0077E6
 }
 .zh-profile-card .lower .meta .item:hover .key {
     color:inherit
@@ -12709,7 +12742,7 @@ html.no-touchevents .zm-item-meta .more-actions:hover .lbl {
 }
 .zm-votebar .up,.zm-votebar .down {
     display:block;
-    color:#25bb9b;
+    color:#0077E6;
     height:24px;
     line-height:24px;
     width:38px;
@@ -12749,12 +12782,12 @@ html.no-touchevents .zm-item-meta .more-actions:hover .lbl {
     left:50%;
     margin-left:-6px;
     border-top-width:0;
-    border-bottom-color:#25bb9b;
+    border-bottom-color:#0077E6;
     border-top-style:solid
 }
 .zm-votebar .down .vote-arrow {
     border-bottom-width:0;
-    border-top-color:#25bb9b
+    border-top-color:#0077E6;
 }
 html.no-touchevents .zm-votebar .up:hover .vote-arrow,.zm-votebar .up.pressed .vote-arrow {
     border-bottom-color:#fff
@@ -12763,19 +12796,19 @@ html.no-touchevents .zm-votebar .down:hover .vote-arrow,.zm-votebar .down.presse
     border-top-color:#fff
 }
 html.no-touchevents .zm-votebar .up:hover,html.no-touchevents .zm-votebar .down:hover,.zm-votebar .up.pressed,.zm-votebar .down.pressed {
-    background:#25bb9b;
+    background:#0077E6;
     color:#fff
 }
 .zm-item-vote-count {
     display:block;
-    color:#25bb9b;
+    color:#0077E6;
     height:24px;
+    padding: 0 10px;
     line-height:24px;
-    width:38px;
     border-radius:3px;
     border:0;
     cursor:pointer;
-    background:#eff6fa;
+    background:rgba(0,119,230,.1);
     font-weight:700;
     font-weight:500;
     text-align:center;
@@ -12784,10 +12817,11 @@ html.no-touchevents .zm-votebar .up:hover,html.no-touchevents .zm-votebar .down:
     -webkit-text-size-adjust:none
 }
 .zm-item-vote-count:hover {
-    text-decoration:none
+    text-decoration:none;
+    color: #0077E6;
 }
 html.no-touchevents .zm-item-vote-count:hover {
-    background:#25bb9b;
+    background:#0077E6;
     color:#fff
 }
 .zm-item-vote {
@@ -12881,7 +12915,7 @@ html.no-touchevents .zm-item-vote-count:hover {
     margin-right:6px;
     padding:0 5px;
     font-size:14px;
-    color:#25bb9b;
+    color:#0077E6;
     display:inline-block
 }
 .zm-item-vote-count.votenum-mobile.owner .arrow {
@@ -12924,7 +12958,7 @@ html.no-touchevents .zm-item-vote-count:hover {
     border-radius:3px;
     cursor:pointer;
     vertical-align:middle;
-    background-color:#25bb9b;
+    background-color:#0077E6;
     background-repeat:no-repeat;
     background-image:url(../images/img/sprites-1.9.2.4c54885a.png)
 }
@@ -12932,7 +12966,7 @@ html.no-touchevents .zm-item-vote-count:hover {
     background-position:-264px -103px
 }
 html.no-touchevents .tag-list .remove-button:hover {
-    background-color:#25bb9b
+    background-color:#0077E6
 }
 .zg-editor-simple-wrap {
     border:1px solid #999;
@@ -12971,7 +13005,7 @@ html.no-touchevents .tag-list .remove-button:hover {
     text-decoration:none
 }
 html.no-touchevents .zm-item-tag:hover,html.no-touchevents .zm-item-tag-x:hover {
-    background:#25bb9b;
+    background:#0077E6;
     color:#fff;
     text-decoration:none
 }
@@ -13000,7 +13034,7 @@ html.no-touchevents .zm-item-tag:hover,html.no-touchevents .zm-item-tag-x:hover 
 }
 html.no-touchevents .zm-tag-editor-remove-button:hover {
     background-position:-264px -103px;
-    background-color:#25bb9b
+    background-color:#0077E6
 }
 .video-box {
     position:relative;
@@ -13019,7 +13053,7 @@ html.no-touchevents .video-box:hover {
     text-decoration:none
 }
 html.no-touchevents .video-box:hover .title {
-    color:#25bb9b
+    color:#0077E6
 }
 html.no-touchevents .video-box:hover .title .z-ico-extern-gray {
     display:none
